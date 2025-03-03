@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- 🔹 Search Bar (Input for Twitter Query) -->
+    <EditText
+        android:id="@+id/searchWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:hint="Enter Macedonian/English word"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <!-- 🔹 Input Field for Tagging -->
+    <EditText
+        android:id="@+id/translation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/white"
+        android:hint="Translation"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+
+
+    <Button
+        android:id="@+id/clearContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_purple"
+        android:text="Clear"
+        android:textColor="#111111" />
+
+</LinearLayout>
